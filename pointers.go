@@ -4,7 +4,7 @@ import "fmt"
 
 // Pointers
 func updateName(x *string) { // *string is a pointer to a string
-	*x = "Bobby"
+	*x = "Bobby" // *x is the value of the variable x. We are dereferencing the pointer to get the value of the variable x. We are then updating the value of the variable x.
 }
 
 func main() {
